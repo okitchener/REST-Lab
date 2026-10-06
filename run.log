@@ -1,0 +1,163 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-10-06T18:21:20.382-05:00  INFO 26072 --- [  restartedMain] e.w.s.DistJavaStockPurchaseApplication   : Starting DistJavaStockPurchaseApplication using Java 17.0.20.1 with PID 26072 (C:\Users\Okitc\Downloads\dist-java-stock-purchase-master\dist-java-stock-purchase-master\target\classes started by Okitc in C:\Users\Okitc\Downloads\dist-java-stock-purchase-master\dist-java-stock-purchase-master)
+2026-10-06T18:21:20.384-05:00  INFO 26072 --- [  restartedMain] e.w.s.DistJavaStockPurchaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-06T18:21:20.418-05:00  INFO 26072 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-06T18:21:20.418-05:00  INFO 26072 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-06T18:21:20.817-05:00  INFO 26072 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06T18:21:20.850-05:00  INFO 26072 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-10-06T18:21:21.186-05:00  INFO 26072 --- [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8099 (http)
+2026-10-06T18:21:21.196-05:00  INFO 26072 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-06T18:21:21.197-05:00  INFO 26072 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-10-06T18:21:21.236-05:00  INFO 26072 --- [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 817 ms
+2026-10-06T18:21:21.291-05:00  INFO 26072 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-06T18:21:21.427-05:00  INFO 26072 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:79f6a79c-ce54-47d1-b32c-336644bd8dcb user=SA
+2026-10-06T18:21:21.428-05:00  INFO 26072 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-06T18:21:21.509-05:00  INFO 26072 --- [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-06T18:21:21.559-05:00  INFO 26072 --- [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-10-06T18:21:21.885-05:00  INFO 26072 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06T18:21:21.948-05:00  INFO 26072 --- [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:79f6a79c-ce54-47d1-b32c-336644bd8dcb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 79F6A79C-CE54-47D1-B32C-336644BD8DCB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06T18:21:22.622-05:00  INFO 26072 --- [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06T18:21:22.627-05:00  INFO 26072 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06T18:21:22.679-05:00  INFO 26072 --- [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-06T18:21:22.750-05:00  WARN 26072 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-06T18:21:22.966-05:00  INFO 26072 --- [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8099 (http) with context path '/'
+2026-10-06T18:21:22.970-05:00  INFO 26072 --- [  restartedMain] e.w.s.DistJavaStockPurchaseApplication   : Started DistJavaStockPurchaseApplication in 2.881 seconds (process running for 3.22)
+2026-10-06T18:22:31.605-05:00  INFO 26072 --- [nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-06T18:22:31.605-05:00  INFO 26072 --- [nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-06T18:22:31.606-05:00  INFO 26072 --- [nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: 
+    select
+        sp1_0.purchase_id,
+        sp1_0.price_per_share,
+        sp1_0.purchase_date,
+        sp1_0.shares,
+        sp1_0.symbol 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    select
+        sp1_0.purchase_id,
+        sp1_0.price_per_share,
+        sp1_0.purchase_date,
+        sp1_0.shares,
+        sp1_0.symbol 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    update
+        stock_purchase 
+    set
+        price_per_share=?,
+        purchase_date=?,
+        shares=?,
+        symbol=? 
+    where
+        purchase_id=?
+Hibernate: 
+    insert 
+    into
+        stock_purchase
+        (price_per_share, purchase_date, shares, symbol, purchase_id) 
+    values
+        (?, ?, ?, ?, default)
+Hibernate: 
+    select
+        count(*) 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    select
+        sp1_0.purchase_id,
+        sp1_0.price_per_share,
+        sp1_0.purchase_date,
+        sp1_0.shares,
+        sp1_0.symbol 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    update
+        stock_purchase 
+    set
+        price_per_share=?,
+        purchase_date=?,
+        shares=?,
+        symbol=? 
+    where
+        purchase_id=?
+Hibernate: 
+    select
+        count(*) 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    select
+        sp1_0.purchase_id,
+        sp1_0.price_per_share,
+        sp1_0.purchase_date,
+        sp1_0.shares,
+        sp1_0.symbol 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    delete 
+    from
+        stock_purchase 
+    where
+        purchase_id=?
+Hibernate: 
+    select
+        count(*) 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+Hibernate: 
+    select
+        sp1_0.purchase_id,
+        sp1_0.price_per_share,
+        sp1_0.purchase_date,
+        sp1_0.shares,
+        sp1_0.symbol 
+    from
+        stock_purchase sp1_0 
+    where
+        sp1_0.purchase_id=?
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.1.0:run (default-cli) on project dist-java-stock-purchase: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
